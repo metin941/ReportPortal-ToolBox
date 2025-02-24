@@ -242,7 +242,7 @@ class RpToolBox:
 
     def create_copyright_label(self):
         def open_github(event):
-            webbrowser.open("https://github.com/metin941/Network-Scanner")
+            webbrowser.open("https://github.com/metin941/ReportPortal-ToolBox")
 
         label = tk.Label(
             self.root, text="v1.0 © M.Hasanov 2025", font=("Arial", 10, "italic"), cursor="hand2"
